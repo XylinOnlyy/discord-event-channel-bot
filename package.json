@@ -1,0 +1,23 @@
+{
+  "name": "discord-event-channel-bot",
+  "version": "1.0.0",
+  "description": "Discord server management bot for scheduled events, channel presets, non-destructive lock/unlock, interactive reminders, anti-spam message relay, and mandatory moderation logs.",
+  "main": "src/index.js",
+  "author": "XylinOnlyy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XylinOnlyy/discord-event-channel-bot.git"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
